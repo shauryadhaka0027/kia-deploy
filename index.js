@@ -12,7 +12,7 @@ const cors=require("cors");
 
 
 app.use(cors({
-    origin: ["http://127.0.0.1:5173"],
+    origin: ["http://127.0.0.1:5173","https://crudapplicationdha02.netlify.app"],
     methods:["GET","POST","DELETE","PATCH"],
     credentials: true
   }));
